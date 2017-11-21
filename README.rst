@@ -1,69 +1,23 @@
+https://github.com/Gr1dd/raptiformica
+https://github.com/Gr1dd/simulacra
 
-==========
-VirtualBox
-==========
+Which do you think would be better?
+CAS could benefit from this/maybe your HPC cluster. I want to push one of these into a docker container
+(hopefully I can do this without a blockchain)
 
-VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
+or.. ITSS whoever is in control of your UNT infrastructure on the larger HPC cluster.
 
-Sample pillars
-==============
+But, I have been baffled by the bigger question. Do I implement a central or decentralized database anyway?
+And, how do I even handle the shell output from running tasks?
 
-VirtualBox version 4.3
+I really want to create a hybrid docker blockchain that is decentralized with access control. Leveraging the blockchain for database storage, maybe turning it into an actual cryptocurrency on the global market (mind you, with no ICO but selling for a cheap price to compete with the dragonchain I got burned on..... a coin is the only way you could HAVE a global HPC cluster in the sense.)
 
-.. code-block:: yaml
-
-    virtualbox:
-      host:
-        enabled: true
-        version: 4.3
-        extensions: false
-
-VirtualBox version 5.0
-
-.. code-block:: yaml
-
-    virtualbox:
-      host:
-        enabled: true
-        version: 5.0
+I came across software called coinclone, but, I have no intention of "mining blocks" but instead, paying for uptime (hopefully through a decentralized global network database.... That i'd prefer to be a blockchain for "millenial" appeal.)
+Cloner: https://github.com/Gr1dd/cloner
 
 
-Read more
-=========
 
-* https://www.virtualbox.org/wiki/Technical_documentation
-* http://ubuntuforums.org/showthread.php?t=1810768
-* https://www.virtualbox.org/wiki/Linux_Downloads
+These are mainly highdeas, but if you have any input or thoughts, let me know! I think it could go very far to create a public decentralied grid computing infrastructure if the price is based on performance. But how can you even measure performance like that when you are running multitudes of different task-consuming commands, let alone secure that type of payment system
 
-Documentation and Bugs
-======================
-
-To learn how to install and update salt-formulas, consult the documentation
-available online at:
-
-    http://salt-formulas.readthedocs.io/
-
-In the unfortunate event that bugs are discovered, they should be reported to
-the appropriate issue tracker. Use Github issue tracker for specific salt
-formula:
-
-    https://github.com/salt-formulas/salt-formula-virtualbox/issues
-
-For feature requests, bug reports or blueprints affecting entire ecosystem,
-use Launchpad salt-formulas project:
-
-    https://launchpad.net/salt-formulas
-
-You can also join salt-formulas-users team and subscribe to mailing list:
-
-    https://launchpad.net/~salt-formulas-users
-
-Developers wishing to work on the salt-formulas projects should always base
-their work on master branch and submit pull request against specific formula.
-
-    https://github.com/salt-formulas/salt-formula-virtualbox
-
-Any questions or feedback is always welcome so feel free to join our IRC
-channel:
-
-    #salt-formulas @ irc.freenode.net
+Thanks,
+JM
